@@ -23,11 +23,11 @@ $(call inherit-product, device/google/taimen/device.mk)
 $(call inherit-product-if-exists, vendor/google_devices/taimen/proprietary/device-vendor.mk)
 
 PRODUCT_PACKAGES += \
-    Dialer \
-    Launcher3QuickStep \
-    WallpaperPicker \
     netutils-wrapper-1.0 \
     vndk_package
+    #Dialer \
+    #Launcher3QuickStep \
+    #WallpaperPicker \
 
 PRODUCT_COPY_FILES += \
     device/google/taimen/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
