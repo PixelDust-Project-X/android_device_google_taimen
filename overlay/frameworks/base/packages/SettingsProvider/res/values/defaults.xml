@@ -19,4 +19,7 @@
 <resources>
     <!-- Default for Settings.Global.APPLY_RAMPING_RINGER -->
     <bool name="def_apply_ramping_ringer">false</bool>
+
+    <!-- Set the notificaiton pulse to be on by default. -->
+    <bool name="def_notification_pulse">true</bool>
 </resources>
