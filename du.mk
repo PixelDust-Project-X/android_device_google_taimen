@@ -30,12 +30,12 @@ PRODUCT_MODEL := Pixel 2 XL
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="taimen" \
-    PRIVATE_BUILD_DESC="taimen-user 11 RP1A.200720.009 6720564 release-keys"
+    PRIVATE_BUILD_DESC="taimen-user 11 RP1A.201005.004 6782484 release-keys"
 
-BUILD_FINGERPRINT := "google/taimen/taimen:11/RP1A.200720.009/6720564:user/release-keys"
+BUILD_FINGERPRINT := "google/taimen/taimen:11/RP1A.201005.004/6782484:user/release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.fingerprint=google/taimen/taimen:11/RP1A.200720.009/6720564:user/release-keys
+    ro.build.fingerprint=google/taimen/taimen:11/RP1A.201005.004/6782484:user/release-keys
 
 $(call inherit-product-if-exists, vendor/google/taimen/taimen-vendor.mk)
 $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
